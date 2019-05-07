@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 project(PositionBasedDynamics)
+set(CMAKE_CXX_FLAGS "-fopenmp")
 
 set(PROJECT_PATH ${PROJECT_SOURCE_DIR})
 include_directories(${PROJECT_SOURCE_DIR})
